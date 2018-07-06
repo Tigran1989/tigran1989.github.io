@@ -1,0 +1,231 @@
+
+body {
+    margin: 0;
+
+    overflow-x: hidden;
+}
+
+/*  start section 1 */
+#sec1{
+    min-height: 100vh;
+    background-image: url("../images/pic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: sans-serif;
+
+
+}
+
+.profile{
+    border: 1px solid red;
+    border-radius: 7px;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+
+.about{
+
+    margin-top: 100px;
+    margin-right:0;
+    background-color: #5b91b5 !important;
+    border-radius: 20px;
+    color: white;
+
+
+}
+
+.title{
+
+    color: #7d5ef3;
+    font-size: 24px;
+    background-color: #47b2d0;
+    padding: 10px;
+    border: 3px dotted #00ff47;
+    border-radius: 7px;
+}
+
+
+
+
+
+/*  end section 1 */
+
+
+/*  start skills  */
+
+#sec2 {
+    min-height: 100vh;
+    background-image: url("../images/IMG_2443.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+#sec3{
+    min-height: 100vh;
+    background-image: url("../images/vernonlaw1-2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    /*line-height: 100vh;*/
+    font-family: sans-serif;
+
+
+}
+
+/*section4*/
+#sec4{
+    min-height: 100vh;
+    background-image: url("../images/1_RNrSl5f--NSiBI-5yeCHJA.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    /*line-height: 100vh;*/
+    font-family: sans-serif;
+
+
+}
+
+.portfolio > img {
+    padding:30px;
+}
+
+
+#sec5{
+    padding-top: 50px;
+    min-height: 100vh;
+    background-image: url("../images/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*text-align: center;*/
+    font-family: sans-serif;
+
+
+}
+
+
+
+.cicle{
+    border:2px solid deepskyblue;
+    border-radius:50%;
+    width: 30px;
+    height: 30px;
+    line-height: 25px;
+    text-align: center;
+    margin: 5px;
+}
+.cicle:hover{
+
+    background-color:darkturquoise;
+
+}
+
+/*skills*/
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skill {
+    color: white;
+}
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+/*skills*/
+
+
+
+/*portfolio*/
+
+
+
+
+
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+    background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+/*portfolio*/
